@@ -13,7 +13,7 @@
           <span class="mui-icon mui-icon-extra mui-icon-extra-express">
             <span class="mui-badge">{{ total }}</span>
           </span>
-          <span class="mui-tab-label">购物车</span>
+          <span class="mui-tab-label">购物车辆</span>
         </router-link>
         <router-link class="mui-tab-item" to="/self">
           <span class="mui-icon mui-icon-contact"></span>
@@ -25,6 +25,7 @@
 </template>
 
 <script>
+// 测试
 import goodsStorage from '../../js/model/goods.js';
 export default {
   data() {
