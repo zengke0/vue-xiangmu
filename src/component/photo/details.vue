@@ -31,7 +31,7 @@ export default {
     };
   },
   methods: {
-    // 获取数据
+    // 获取数据  
     getInfo() {
       let url = config.photoInfo + this.$route.params.id;
       this.$http.get(url).then(rep => {
@@ -39,7 +39,7 @@ export default {
         body.status == 0 && (this.info = body.message[0]);
       });
     },
-
+    // 再测试一下
     // 获取缩略图
     getHums() {
       let url = config.photoHums + this.$route.params.id;
